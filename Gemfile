@@ -19,6 +19,8 @@ gem 'omniauth-oauth2'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
 
+gem 'faker'
+
 gem 'bootstrap-sass', '~> 3.3.6'
 
 # Use jquery as the JavaScript library
