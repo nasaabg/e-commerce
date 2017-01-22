@@ -20,6 +20,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
 
 gem 'faker'
+gem "font-awesome-rails"
 
 gem 'bootstrap-sass', '~> 3.3.6'
 

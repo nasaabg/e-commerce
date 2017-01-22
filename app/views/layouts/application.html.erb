@@ -23,8 +23,13 @@
 					<p class="navbar-text navbar-right">
 					</p>
 				<% else %>
-					<p class="navbar-text navbar-right">
-					<%= link_to('Login', new_user_session_path)  %> or <%= link_to "Sign up", new_user_registration_path %> 
+					<p class="navbar-text navbar-right">Login with 
+					<%= link_to 'users/auth/facebook' do %>
+						<i class="fa fa-facebook-official fa-lg"></i> Facebook
+					<% end %> or 
+					<%= link_to 'users/auth/google_auth2' do %>
+						<i class="fa fa-google fa-lg"></i>oogle
+					<% end %>
 					</p>
 				<% end %>
 				<p class="navbar-text navbar-right">
