@@ -12,7 +12,7 @@
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="/">
-						BOARD
+						BEST SHOP
 					</a>
 				</div>
 				<div class="collapse navbar-collapse">
@@ -24,10 +24,10 @@
 					</p>
 				<% else %>
 					<p class="navbar-text navbar-right">Login with 
-					<%= link_to 'users/auth/facebook' do %>
+					<%= link_to user_facebook_omniauth_authorize_path do %>
 						<i class="fa fa-facebook-official fa-lg"></i> Facebook
 					<% end %> or 
-					<%= link_to 'users/auth/google_auth2' do %>
+					<%= link_to user_google_oauth2_omniauth_authorize_path do %>
 						<i class="fa fa-google fa-lg"></i>oogle
 					<% end %>
 					</p>
